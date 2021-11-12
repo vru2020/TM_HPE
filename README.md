@@ -35,5 +35,5 @@ Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Es
 ```
 
 # Acknowledgement
-Part of the code is borrowed from the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo.
+Part of the code is borrowed from the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo. We gratefully appreciate the impact these libraries had on our work. If you use our code, please consider citing the original paper as well.
 
