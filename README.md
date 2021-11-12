@@ -31,4 +31,9 @@ Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Es
     booktitle={International Conference on Advanced Video and Signal-based Surveillance},
     year={2021}
 }
+
+# Acknowledgement
+Part of the code is borrowed from the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo.
+
+
 ```
