@@ -4,6 +4,7 @@
 Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Estimation with Pseudo-Labels".
 
 
+
 # Installation 
 ### Datasets
 * Please follow the data preprocessing steps ([DATASETS.md](https://github.com/facebookresearch/VideoPose3D/blob/master/DATASETS.md)) inside the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo.
