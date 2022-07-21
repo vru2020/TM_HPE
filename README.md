@@ -10,14 +10,11 @@ Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Es
 * Please follow the data preprocessing steps ([DATASETS.md](https://github.com/facebookresearch/VideoPose3D/blob/master/DATASETS.md)) inside the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) repo.
 * 
 ### Environment
-* **Tested OS:** Linux
-* **Packages:**
-    * Python >= 3.6
-    * [PyTorch](https://pytorch.org) >= 0.4
+
 
 
 ### Pretrained Models
-* Download our pretrained models from [Google Drive](https://drive.google.com/file/d/1k5uDeUXrvtwZPN-lJNPSO8tPvHH6Gj55/view?usp=sharing) and place the unzipped ``results`` folder inside the root of this repo.
+* Download our pretrained models from  and place the unzipped ``results`` folder inside the root of this repo.
 
 # Train
 
