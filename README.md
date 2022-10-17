@@ -17,7 +17,7 @@ Arij Bouazizi, Ulrich Kressel, and Vasileios Belagiannis
 
 
 <div align="right">
-<img src="MotionMixer.png" height="500px">
+<img src="method_avss.png" height="500px">
 </div>
 
 ## Installation
