@@ -1,15 +1,15 @@
 
 <div align="center">
 
-<h1>MotionMixer: MLP-based 3D Human Body Pose Forecasting </h1>
+<h1>Learning Temporal 3D Human Pose Estimation with Pseudo Labels </h1>
 
 
-Official PyTorch Implementation of the paper: MotionMixer: MLP-based 3D Human Body Pose Forecasting.
+Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Estimation with Pseudo Labels.
 
-Arij Bouazizi, Adrian Holzbock, Ulrich Kressel, Klaus Dietmayer and Vasileios Belagiannis
+Arij Bouazizi, Ulrich Kressel, and Vasileios Belagiannis
 
 
- [[Proceedings](https://www.ijcai.org/proceedings/2022/0111.pdf)] [[Papers with Code](https://paperswithcode.com/paper/motionmixer-mlp-based-3d-human-body-pose)] [[Arxiv](https://arxiv.org/abs/2207.00499)]
+ [[Proceedings](Learning Temporal 3D Human Pose Estimation with Pseudo Labels)] [[Papers with Code](https://paperswithcode.com/paper/learning-temporal-3d-human-pose-estimation)] [[Arxiv](https://arxiv.org/abs/2110.07578)]
 
 
 
@@ -24,34 +24,34 @@ Arij Bouazizi, Adrian Holzbock, Ulrich Kressel, Klaus Dietmayer and Vasileios Be
 
 To setup the environment:
 ```sh
-cd MotionMixer
-conda create -n MotionMixer python=3.8.8
-conda activate MotionMixer
+cd TM_HPE
+conda create -n TM_HPE python=3.8.8
+conda activate TM_HPE
 pip install -r requirements.txt
 ```
 
 ## Data
 
-Due to licensing it is not possible to provide any data. Please refer to [STSGCN](https://github.com/FraLuca/STSGCN) for the preparation of the dataset files.
+Due to licensing it is not possible to provide any data. Please refer to [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) for the preparation of the dataset files.
 
 ## Training
 
 To train the model on h36m or amass, you can use the following commands:
  ```
- python h36m/train_mixer_h36m.py --input_n 10 --output_n 25 --skip_rate 1 
+ python h36m/train_h36m.py --input_n 10 --output_n 25 --skip_rate 1 
  ```
  ```
- python amass/train_mixer_amass.py --input_n 10 --output_n 25 --skip_rate 5 
+ python amass/train_3dhp.py --input_n 10 --output_n 25 --skip_rate 5 
  ```
  
  ## Evaluation
 
 To test the pretrained models, you can use the following commands:
  ```
- python h36m/test_mixer_h36m.py --input_n 10 --output_n 25 --skip_rate 1 
+ python h36m/test_h36m.py --input_n 10 --output_n 25 --skip_rate 1 
  ```
  ```
- python amass/test_mixer_amass.py --input_n 10 --output_n 25 --skip_rate 5 
+ python amass/test_h36m.py --input_n 10 --output_n 25 --skip_rate 5 
  ```
  
  ## Models
@@ -63,22 +63,20 @@ We release the pretrained models for academic purpose. You can download them fro
 If you find this code useful for your research, please consider citing the following paper:
 
 ```latex
-@inproceedings{ijcai2022p111,
-  title     = {MotionMixer: MLP-based 3D Human Body Pose Forecasting},
-  author    = {Bouazizi, Arij and Holzbock, Adrian and Kressel, Ulrich and Dietmayer, Klaus and Belagiannis, Vasileios},
-  booktitle = {Proceedings of the Thirty-First International Joint Conference on
-               Artificial Intelligence, {IJCAI-22}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  pages     = {791--798},
-  year      = {2022},
-  month     = {7},
+@inproceedings{bouazizi2021learning,
+  title={Learning temporal 3d human pose estimation with pseudo-labels},
+  author={Bouazizi, Arij and Kressel, Ulrich and Belagiannis, Vasileios},
+  booktitle={2021 17th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  pages={1--8},
+  year={2021},
+  organization={IEEE}
 }
 
 ```
 
  ## Acknowledgments
  
- Some of our code was adapted from [HisRepsItself](https://github.com/wei-mao-2019/HisRepItself) and [STSGCN](https://github.com/FraLuca/STSGCN). We thank the authors for making their code public.
+ Some of our code was adapted from [VideoPose3D](https://github.com/facebookresearch/VideoPose3D). We thank the authors for making their code public.
  
 ## License
 
