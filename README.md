@@ -56,7 +56,7 @@ To test the pretrained models, you can use the following commands:
  
  ## Models
 
-We release the pretrained models for academic purpose. You can download them from [Google Drive](https://drive.google.com/drive/folders/1SrZpoe__Q3YXdk_TrtcxeJzRQiKAWoT5). Unzip the .zip file in the ```/checkpoints``` directory.
+We release the pretrained models for academic purpose. You can download them from. Unzip the .zip file in the ```/checkpoints``` directory.
 
 ## Citation
 
