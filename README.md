@@ -9,7 +9,7 @@ Official PyTorch Implementation of the paper: Learning Temporal 3D Human Pose Es
 Arij Bouazizi, Ulrich Kressel, and Vasileios Belagiannis
 
 
- [[Proceedings](Learning Temporal 3D Human Pose Estimation with Pseudo Labels)] [[Papers with Code](https://paperswithcode.com/paper/learning-temporal-3d-human-pose-estimation)] [[Arxiv](https://arxiv.org/abs/2110.07578)]
+ [[Proceedings](https://ieeexplore.ieee.org/document/9663755)] [[Papers with Code](https://paperswithcode.com/paper/learning-temporal-3d-human-pose-estimation)] [[Arxiv](https://arxiv.org/abs/2110.07578)]
 
 
 
