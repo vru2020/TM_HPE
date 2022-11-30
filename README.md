@@ -51,7 +51,7 @@ To test the pretrained models, you can use the following commands:
  python h36m/test_h36m.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  ```
- python amass/test_h36m.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
+ python amass/test_3dhp.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  
  ## Models
