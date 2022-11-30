@@ -38,20 +38,20 @@ Due to licensing it is not possible to provide any data. Please refer to [VideoP
 
 To train the model on h36m or amass, you can use the following commands:
  ```
- python h36m/train_h36m.py --e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
+ python h36m/train_h36m.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  ```
- python amass/train_3dhp.py --e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
+ python amass/train_3dhp.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  
  ## Evaluation
 
 To test the pretrained models, you can use the following commands:
  ```
- python h36m/test_h36m.py --e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
+ python h36m/test_h36m.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  ```
- python amass/test_h36m.py --input_n 10 --output_n 25 --skip_rate 5 
+ python amass/test_h36m.py -e 80 -k cpn_ft_h36m_dbb -arc 3,3,3,3,3
  ```
  
  ## Models
