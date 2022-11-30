@@ -16,7 +16,7 @@ Arij Bouazizi, Ulrich Kressel, and Vasileios Belagiannis
 </div>
 
 
-<div align="right">
+<div align="center">
 <img src="method_avss.png" height="450px">
 </div>
 
